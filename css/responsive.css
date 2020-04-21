@@ -93,13 +93,30 @@
 /*Extra large Devices (Large Dasktop and Laptop)*/
 
 @media (min-width: 1200px) {
-    
+    #isotope-filter {
+    }
+
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 40px;
+        border: 2px solid #ddd;
+    }
 }
 
 /* Large Devices (Dasktop and Laptop) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    
+    #isotope-filter {
+    }
 
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 40px;
+        border: 2px solid #ddd;
+    }
     /*generic*/
     .vertical-heading h5 {
         left: -30px;
@@ -138,6 +155,17 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+    #isotope-filter {
+    }
+
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 20px;
+        border: 2px solid #ddd;
+    }
+
+
     /*Navbar*/
     ul.navbar-nav li a {
         font-size: 12px;
@@ -235,12 +263,47 @@
     .skill h4 {
         font-size: 18px;
     }
+    #about-right .horizontal-heading{
+        margin-bottom: 0;
+    }
+    #about-right .horizontal-heading p{
+        font-size: 10px;
+    }
+    #about-right ul.about-list{
+        margin: 0;
+        font-size: 10px;
+    }
+    #contact-right .vertical-heading h3{
+        margin: 0;
+    }
+    #contact-right .contact-details{
+        margin-bottom: 1px;
+    }
+    #contact-right ul.social-list {
+        margin-top: 0;
+    }
+    .container-box-sm{
+        padding: 20px;
+    }
+    .container-box-md{
+        padding: 20px;
+    }
+
+    
 }
 
 /* Small Devices (Portrait Tablets & Small Desktop) */
 
 @media (max-width: 767px) {
-    
+    #isotope-filter {
+    }
+
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px 8px;
+        border: 2px solid #ddd;
+    }
     /*show mobile nav open btn*/
     #mobile-nav-open-btn {
         display: block;
@@ -400,12 +463,47 @@
     #statement .text-section h4 {
         font-size: 14px;
     }
+    .container-box-sm{
+        padding: 0;
+    }
+    #about-right .horizontal-heading h1{
+        line-height: 45px;
+    }
+    #service .horizontal-heading h1{
+        line-height: 45px;
+    }
+    #skill .horizontal-heading h1{
+        line-height: 45px;
+    }
+    #portfolio .horizontal-heading h1{
+        line-height: 45px;
+    }
+    #resume .horizontal-heading h1{
+        line-height: 45px;
+    }
+    #contact .horizontal-heading h1{
+        line-height: 45px;
+    }
+    .container-box-md{
+        padding: 0;
+    }
 }
 
 
 /* Extra Small Devices (Landscape phone & Portrait Tablets) */
 
 @media (max-width: 575px) {
+    #portfolio{
+        padding: 0;
+        margin: 0;
+    }
+
+    #isotope-filter .button {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 10px;
+        border: 2px solid #ddd;
+    }
     .btn-general {
         padding: 8px 35px;
         font-size: 10px;
@@ -614,9 +712,9 @@
     }
 
     #isotope-filter .button {
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 500;
-        padding-right: 14px;
+        padding-right: 10px;
     }
 
     #branch {
@@ -649,9 +747,9 @@
     }
 
     #isotope-filter .button {
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 500;
-        padding-right: 14px;
+        padding-right: 10px;
     }
 
     /*customer*/

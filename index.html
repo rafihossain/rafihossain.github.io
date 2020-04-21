@@ -31,8 +31,8 @@
     <!--responsive tabs-->
     <link rel="stylesheet" href="css/responsiveTabs/responsive-tabs.css">
 
-    <!--magnifier popup-->
-    <link rel="stylesheet" href="css/Magnific-Popup/magnific-popup.css">
+    <!--magnifier popup
+    <link rel="stylesheet" href="css/Magnific-Popup/magnific-popup.css">-->
     
     <!--Animate css-->
     <link rel="stylesheet" href="css/Animate/Animate.css">
@@ -78,16 +78,16 @@
                                 <a class="smooth-scroll nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#team">Team</a>
+                                <a class="smooth-scroll nav-link" href="#service">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#Services">Services</a>
+                                <a class="smooth-scroll nav-link" href="#skill">Skill</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#portfolio">Work</a>
+                                <a class="smooth-scroll nav-link" href="#portfolio">Project</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#blog">Blog</a>
+                                <a class="smooth-scroll nav-link" href="#resume">Resume</a>
                             </li>
                             <li class="nav-item">
                                 <a class="smooth-scroll nav-link" href="#contact">Contact</a>
@@ -108,16 +108,16 @@
                                 <a class="smooth-scroll nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#team">Team</a>
+                                <a class="smooth-scroll nav-link" href="#service">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#Services">Services</a>
+                                <a class="smooth-scroll nav-link" href="#skill">Skill</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#portfolio">Work</a>
+                                <a class="smooth-scroll nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="smooth-scroll nav-link" href="#blog">Blog</a>
+                                <a class="smooth-scroll nav-link" href="#resume">Resume</a>
                             </li>
                             <li class="nav-item">
                                 <a class="smooth-scroll nav-link" href="#contact">Contact</a>
@@ -127,7 +127,6 @@
                 </div> 
             </div>
         </nav>
-
     </header>
     <!--Header Ends-->
 
@@ -135,11 +134,14 @@
     <section id="home">
 
         <!--Background video-->
-        <video id="home-bg-video" poster="video/svg.jpg" autoplay loop muted>
+        <!-- <video id="home-bg-video" poster="video/svg.jpg" autoplay loop muted>
             <source src="video/svg.mp4" type="video/mp4">
             <source src="video/svg.webm" type="video/webm">
             <source src="video/svg.ogv" type="video/ogg">
-        </video>
+        </video> -->
+
+        <!--home image-->
+        <div id="home-bg-image"></div>
 
         <!--overlay-->
         <div id="home-overlay"></div>
@@ -180,46 +182,35 @@
         <a href="#about" id="Arrow-down" class="smooth-scroll">
             <i class="fa fa-angle-down"></i>
         </a>
-
-
     </section>
     <!--Home Ends-->
 
     <!--About-->
     <section id="about">
-
-        <!--About-01-->
-        <div id="about-01">
-
-            <div class="container-box-lg">
-
+        <div class="container-box-md">
                 <div class="container">
-
                     <div class="row">
 
                         <!--about left-->
                         <div class="col-md-6 wow slideInLeft" data-wow-duration="1s">
 
                             <div id="about-left">
-                                <div class="vertical-heading">
-                                    <h5>who we are</h5>
-                                    <h2>A <strong>Story</strong><br>About Me</h2>
-                                </div>
+                                <img src="img/about/rafi-06.jpg" width="450px" class="img-fluid" alt="rafi-photo">
                             </div>
 
                         </div>
+
 
                         <!--about right-->
                         <div class="col-md-6 wow slideInRight" data-wow-duration="1s">
 
                             <div id="about-right">
-                                <p>I am Rafi Hossain. I am a simple , creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
+                                <div class="horizontal-heading wow slideInDown">
+                                    <h1>About Me</h1>
+                                </div>
+                                <p>I am Rafi Hossain. I am a simple , creative and fun-loving person. I always like to create something on my own which is helpful for others.</p>
 
-                                <p>I have vast experience in HTML5, CSS3, Javascript, JQuery, Node js and on. I have already completed over 20 projecs of different buyer throughout the world!</p>
-                            
-                            
-                            
-                            
+                                <p>I have vast experience in PHP, Laravel, Html5, Css3, JQuery and Javascript.!</p>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="about-list">
@@ -249,546 +240,158 @@
                                         </div> 
                                     </div>
                                 </div>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                            
+
                             </div>   
 
                         </div>
 
                     </div>
-
-                    <!--about bottom-->
-                    <div class="row">
-                        <div class="col-md-12 wow slideInUp" data-wow-duration="1s">
-
-                            <div id="about-bottom">
-                                <img src="img/about/rafi.png" alt="about us" class="img-fluid">
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
-
-            </div>
-
         </div>
-
-        <!--About-02-->
-        <div id="about-02">
-
-            <div class="container-box-md">
-
-                <div class="container">
-
-                    <div class="row">
-
-                        <div class="col-md-4 wow fadeInLeft">
-
-                            <div class="about-item text-center">
-                                <i class="fa fa-rocket"></i>
-                                <h2>UI / UX Designer</h2>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente autem ad obcaecati. Nobis non perferendis, blanditiis vel, architecto doloribus ducimus?</p>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-4 wow fadeInUp" data-wow-duration="2s">
-
-                            <div class="about-item text-center">
-                                <i class="fa fa-laptop"></i>
-                                <h2>Web Developer</h2>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente autem ad obcaecati. Nobis non perferendis, blanditiis vel, architecto doloribus ducimus?</p>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-4 wow fadeInRight">
-
-                            <div class="about-item text-center">
-                                <i class="fa fa-eye"></i>
-                                <h2>Graphics Designer</h2>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente autem ad obcaecati. Nobis non perferendis, blanditiis vel, architecto doloribus ducimus?</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
     </section>
     <!--About Ends-->
 
-    <!--Team-->
-    <section id="team">
-            <div class="container-box-lg">
-                <div class="container">
-                    <!--team member-->
-                    <div class="row">
+    <!--Service-->
+    <section id="service">
+        <div class="container-box-sm">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="horizontal-heading text-center wow slideInDown">
+                        <h1>My Service</h1>
+                    </div>
+                </div>
+            </div>
 
-                        <!--team left-->
-                        <div class="col-md-6 wow slideInLeft" data-wow-duration="1s">
+            <div class="row">
 
-                            <div id="team-top">
-                                <div class="vertical-heading">
-                                    <h5>who we are</h5>
-                                    <h2>Meet <strong>Our</strong><br>Talented Team</h2>
-                                </div>
-                            </div>
+                <div class="col-md-4 wow fadeInLeft">
 
-                            <div id="team-bottom">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam aspernatur quod vero est mollitia dicta saepe, tenetur dolorum hic corporis beatae, magnam, consequatur culpa. Quas necessitatibus aut fugit nobis corporis, ea aperiam, repudiandae laboriosam.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <!--team right-->
-                        <div class="col-md-6 wow slideInRight" data-wow-duration="1s">
-
-                            <div id="team-right" class="owl-carousel owl-theme">
-
-                                <!--team member 01-->
-                                <div class="team-member">
-                                    <img src="img/team/team-1.jpg" alt="team member" class="img-fluid">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-info text-center">
-
-                                            <h6>Rafi Hossain</h6>
-                                            <p>web developer</p>
-
-                                            <ul class="social-links">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--team member 02-->
-                                <div class="team-member">
-                                    <img src="img/team/team-2.jpg" alt="team member" class="img-fluid">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-info text-center">
-
-                                            <h6>Rafi Hossain</h6>
-                                            <p>web developer</p>
-
-                                            <ul class="social-links">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--team member 03-->
-                                <div class="team-member">
-                                    <img src="img/team/team-3.jpg" alt="team member" class="img-fluid">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-info text-center">
-
-                                            <h6>Rafi Hossain</h6>
-                                            <p>web developer</p>
-
-                                            <ul class="social-links">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--team member 04-->
-                                <div class="team-member">
-                                    <img src="img/team/team-4.jpg" alt="team member" class="img-fluid">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-info text-center">
-
-                                            <h6>Rafi Hossain</h6>
-                                            <p>web developer</p>
-
-                                            <ul class="social-links">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--team member 05-->
-                                <div class="team-member">
-                                    <img src="img/team/team-5.jpg" alt="team member" class="img-fluid">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-info text-center">
-
-                                            <h6>Rafi Hossain</h6>
-                                            <p>web developer</p>
-
-                                            <ul class="social-links">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--team member 06-->
-                                <div class="team-member">
-                                    <img src="img/team/team-6.jpg" alt="team member" class="img-fluid">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-info text-center">
-
-                                            <h6>Rafi Hossain</h6>
-                                            <p>web developer</p>
-
-                                            <ul class="social-links">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
+                    <div class="service-item text-center">
+                        <i class="fa fa-rocket"></i>
+                        <h2>Web Design</h2>
+                        <hr>
+                        <p>We provide best web design webpage.if you need please contact with us. <br> thank you</p>
                     </div>
 
-                    <!--progress bar-->
-                    <div id="progressbar-element">
+                </div>
 
-                        <div class="row wow fadeInUp">
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2s">
 
-                            <div class="col-md-6 ">
+                    <div class="service-item text-center">
+                        <i class="fa fa-eye"></i>
+                        <h2>Fully Responsive</h2>
+                        <hr>
+                        <p>We provide fully web page responsive service.if you need please contact with us. <br> thank you</p>
+                    </div>
 
-                                <!--skill 01-->
-                                <div class="skill">
-                                    <h4>HTML</h4>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span>85%</span>
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
 
-                            </div>
-                            <div class="col-md-6">
+                <div class="col-md-4 wow fadeInRight">
 
-                                <!--skill 02-->
-                                <div class="skill">
-                                    <h4>JAVASCRIPT</h4>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span>70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-
-                                <!--skill 03-->
-                                <div class="skill">
-                                    <h4>CSS</h4>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span>70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-
-                                <!--skill 04-->
-                                <div class="skill">
-                                    <h4>PHP</h4>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><span>60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
+                    <div class="service-item text-center">
+                        <i class="fa fa-laptop"></i>
+                        <h2>Web Development</h2>
+                        <hr>
+                        <p>We provide best web development service.if you need please contact with us. <br> thank you</p>
                     </div>
 
                 </div>
             </div>
-
+            </div>
+        </div>
     </section>
-    <!--Team Ends-->
+    <!--Service Ends-->
 
-    <!--Statement-->
-    <section id="statement">
-        <div class="container-box-lg">
+    <!--Skill-->
+    <section id="skill">
+        <div class="container-box-sm">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 wow fadeIn">
-                        <div class="text-section text-center">
-                            <h4>
-                               <i class="fas fa-quote-left"></i> Hi, I am Rafi, I am a webdeveloper and WordPress specialist.I can fix most of the WordPress errors you might experience.Just tell me what you have in mind. All I need from you is an explanation of your ideas and maybe some data about your page. The more info you can provide, the better the results will be.
-                               <i class="fas fa-quote-right"></i>
-                            </h4>
-                            <p> Stay With Us </p>
+                    <div class="col-md-12">
+                        <div class="horizontal-heading text-center wow slideInLeft" data-wow-duration="1s">
+                            <h1>My Skill</h1>
                         </div>
                     </div>
                 </div>
+
+                    <!--progress bar-->
+                <div id="progressbar-element">
+                    <div class="row wow fadeInUp">
+                        <div class="col-md-6 ">
+
+                            <!--skill 01-->
+                            <div class="skill">
+                                <h4>HTML</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <!--skill 02-->
+                            <div class="skill">
+                                <h4>JAVASCRIPT</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <!--skill 03-->
+                            <div class="skill">
+                                <h4>CSS</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <!--skill 04-->
+                            <div class="skill">
+                                <h4>PHP</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><span>60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
             </div>
-        </div>
     </section>
-    <!--Statement Ends-->
-
-    <!--Services-->
-    <section id="Services">
-
-        <!--Services 01-->
-        <div id="service-01">
-            <div class="container-box-lg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="horizontal-heading text-center wow slideInDown">
-                                <h5>what we do</h5>
-                                <h1>Our Service</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-7 wow slideInLeft">
-                            <!--Services left-->
-                            <img src="img/services/laptop-rafi01.png" alt="service img" class="img-fluid">
-                        </div>
-                        <div class="col-md-5 wow slideInRight">
-                            <!--Services 01-->
-                            <div class="service">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="icon">
-                                            <i class="fa fa-paint-brush"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <h6>Service 01</h6>
-                                        <h4>Web Design</h4>
-                                        <p>As a professional UI & UX Designer, I always love to solve UX & UI problem. I have more than 4 years of experience in this field. UX Researching is always my passion. It helps to make something new</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Services 02-->
-                            <div class="service">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="icon">
-                                            <i class="fa fa-laptop"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <h6>Service 02</h6>
-                                        <h4>Web Development</h4>
-                                        <p>We provide best services in web development & web design PHP, MySQL, JavaScript, JQuery, AJAX, HTML, CSS, Responsiveness, and Wordpress them Customization plugin Customization.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!--Services 03-->
-                            <div class="service">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="icon">
-                                            <i class="far fa-paper-plane"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <h6>Service 03</h6>
-                                        <h4>Digital Marketing</h4>
-                                        <p>We will provide a digital marketing strategy for your business or work. If you are looking for digital marketing analysis.I will help you to guide in any platform or industry, mention your requirement while giving an order..</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Services 02-->
-        <div id="service-02">
-            <div class="container-box-md">
-                <div id="service-tabs">
-                    <ul class="text-center">
-                        <li><a href="#service-tab-1">HTML</a></li>
-                        <li><a href="#service-tab-2">CSS</a></li>
-                        <li><a href="#service-tab-3">JAVASCRIPT</a></li>
-                        <li><a href="#service-tab-4">PHP</a></li>
-                    </ul>
-
-                    <!--service tabs 01-->
-                    <div id="service-tab-1" class="service-tab">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="img/services/service-tab-img-04.png" alt="service img">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="tab-bg">
-                                        <h1>01</h1>
-                                        <h2>More about html</h2>
-                                        <p>I will redesign your website with HTML and bootstrap.</p>
-
-                                        <div id="service-02-btn-01">
-
-                                            <a class="btn btn-general btn-service" href="#service" role="button">Get In Touch</a>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--service tabs 02-->
-                    <div id="service-tab-2" class="service-tab">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="img/services/svg.png" alt="service">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="tab-bg">
-                                        <h1>02</h1>
-                                        <h2>More about css</h2>
-                                        <p>I will help you with wordpress, html and css problems deutsch.</p>
-
-                                        <div id="service-02-btn-02">
-
-                                            <a class="btn btn-general btn-service" href="#service" role="button">Get In Touch</a>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--service tabs 03-->
-                    <div id="service-tab-3" class="service-tab">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="img/services/service-tab-img-04.png" alt="service">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="tab-bg">
-                                        <h1>03</h1>
-                                        <h2>More about javascript</h2>
-                                        <p>I have 2+ years of experience in JavaScript, TypeScript and NodeJS development. Feel free to contact and discuss what are your requirements. I can guarantee the work will be done according to your requirements and will be delivered in time.</p>
-
-                                        <div id="service-02-btn-03">
-
-                                            <a class="btn btn-general btn-service" title="Get In Touch" href="#service" role="button">Get In Touch</a>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--service tabs 04-->
-                    <div id="service-tab-4" class="service-tab">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="img/services/service-tab-img-01.png" alt="service">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="tab-bg">
-                                        <h1>04</h1>
-                                        <h2>More about php</h2>
-                                        <p>I can help you with any kind of PHP or website styling issues. This may include website server side error, fetching of data or any other kind of programming issue LEAVE IT TO ME i will resolve it.</p>
-
-                                        <div id="service-02-btn-04">
-
-                                            <a class="btn btn-general btn-service" href="#service" role="button">Get In Touch</a>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <!--Services Ends-->
+    <!--Skill Ends-->
 
     <!--portfolio-->
     <section id="portfolio">
-        <div class="container-box-md">
+        <div class="container-box-sm">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-md-12 wow slideInLeft">
-                        <div class="vertical-heading">
-                            <h5>find out work</h5>
-                            <h2>Our<br> <strong>Amazing</strong> Story </h2>
+                    <div class="col-md-12">
+                        <div class="horizontal-heading text-center wow slideInLeft" data-wow-duration="1s">
+                            <h1>My Project</h1>
                         </div>
                     </div>
+                </div>
+                <div class="row">
 
                     <div class="col-md-12">
 
                         <!--isotop file filter-->
                         <div id="isotope-filter">
                             <button class="button active" data-filter="*"><span>all</span></button>
-                            <button class="button" data-filter=".logo"><span>logo</span></button>
-                            <button class="button" data-filter=".web"><span>web</span></button>
-                            <button class="button" data-filter=".mobile"><span>mobile</span></button>
-                            <button class="button" data-filter=".desktop"><span>desktop</span></button>
+                            <button class="button" data-filter=".wordpress"><span>wordpress</span></button>
+                            <button class="button" data-filter=".design"><span>design</span></button>
+                            <button class="button" data-filter=".php"><span>php</span></button>
+                            <button class="button" data-filter=".laravel"><span>laravel</span></button>
                         </div>
 
                     </div>
@@ -797,28 +400,28 @@
             </div>
             <!--portfolio item-->
             <section id="portfolio-item" class="wow fadeInUp">
-                <div class="container-fluid">
+                <div class="container">
                     <div id="isotope-container">
 
                         <div class="row no-gap">
-                            <div class="col-md-3 item logo">
+                            <div class="col-md-3 item php">
 
                                 <!--portfolio item 01-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/001.jpg" title="Image Description">
-                                        <img src="img/portfolio/001.jpg" alt="protfolio 01" class="img-fluid">
+                                    <a href="https://rafihossain.github.io" title="">
+                                        <img src="img/portfolio/php.png" alt="protfolio 01" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>logo</h3>
+                                                <h3>PHP</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>Institute Project</p>
 
 
                                             </div>
@@ -828,24 +431,24 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3 item web logo">
+                            <div class="col-md-3 item laravel">
 
                                 <!--portfolio item 02-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/002.jpg" title="Image Description">
-                                        <img src="img/portfolio/002.jpg" alt="protfolio 02" class="img-fluid">
+                                    <a href="https://rafihossain.github.io" title="">
+                                        <img src="img/portfolio/laravel.png" alt="protfolio 02" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>web</h3>
+                                                <h3>Laravel</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>Laravel Project</p>
 
 
                                             </div>
@@ -855,24 +458,24 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3 item mobile web logo">
+                            <div class="col-md-3 item wordpress">
 
                                 <!--portfolio item 03-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/003.jpg" title="Image Description">
-                                        <img src="img/portfolio/003.jpg" alt="protfolio 03" class="img-fluid">
+                                    <a href="https://arrafi245.blogspot.com/" title="">
+                                        <img src="img/portfolio/blog.png" alt="protfolio 03" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>mobile</h3>
+                                                <h3>Blog</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>My Blog Website</p>
 
 
                                             </div>
@@ -882,24 +485,24 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3 item desktop web logo">
+                            <div class="col-md-3 item design">
 
                                 <!--portfolio item 04-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/004.jpg" title="Image Description">
-                                        <img src="img/portfolio/004.jpg" alt="protfolio 04" class="img-fluid">
+                                    <a href="http://rafihossain.ml/project1/" title="">
+                                        <img src="img/portfolio/design-1.png" alt="protfolio 04" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>desktop</h3>
+                                                <h3>Web Design</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>Responsive Design</p>
 
 
                                             </div>
@@ -913,24 +516,24 @@
 
 
                         <div class="row no-gap">
-                            <div class="col-md-3 item mobile">
+                            <div class="col-md-3 item design">
 
                                 <!--portfolio item 05-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/005.jpg" title="Image Description">
-                                        <img src="img/portfolio/005.jpg" alt="protfolio 05" class="img-fluid">
+                                    <a href="http://rafihossain.ml/" title="">
+                                        <img src="img/portfolio/psd.png" alt="protfolio 05" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>mobile</h3>
+                                                <h3>Web Design</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>PSD To HTML</p>
 
 
                                             </div>
@@ -940,24 +543,24 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3 item mobile ">
+                            <div class="col-md-3 item laravel ">
 
                                 <!--portfolio item 06-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/006.jpg" title="Image Description">
-                                        <img src="img/portfolio/006.jpg" alt="protfolio 06" class="img-fluid">
+                                    <a href="https://rafihossain.github.io" title="">
+                                        <img src="img/portfolio/l-ecommarce.png" alt="protfolio 06" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>mobile</h3>
+                                                <h3>Laravel</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>E-Commarce Project</p>
 
 
                                             </div>
@@ -967,24 +570,24 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3 item desktop">
+                            <div class="col-md-3 item wordpress">
 
                                 <!--portfolio item 07-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/007.jpg" title="Image Description">
-                                        <img src="img/portfolio/007.jpg" alt="protfolio 07" class="img-fluid">
+                                    <a href="https://rafi245.000webhostapp.com/" title="">
+                                        <img src="img/portfolio/wp.png" alt="protfolio 07" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>desktop</h3>
+                                                <h3>Wordpress</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>Wordpress Project</p>
 
 
                                             </div>
@@ -994,24 +597,24 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3 item web logo">
+                            <div class="col-md-3 item php">
 
                                 <!--portfolio item 08-->
                                 <div class="portfolio-item">
-                                    <a href="img/portfolio/008.jpg" title="Image Description">
-                                        <img src="img/portfolio/008.jpg" alt="protfolio 08" class="img-fluid">
+                                    <a href="http://rafihossain.cf/index.php" title="">
+                                        <img src="img/portfolio/crud.png" alt="protfolio 08" class="img-fluid">
 
                                         <div class="portfolio-item-overlay">
                                             <div class="portfolio-item-details text-center">
 
                                                 <!--item logo-->
-                                                <h3>web</h3>
+                                                <h3>PHP</h3>
 
                                                 <!--item strips-->
                                                 <span></span>
 
                                                 <!--item description-->
-                                                <p>Desktop, Design</p>
+                                                <p>CRUD Project</p>
 
 
                                             </div>
@@ -1032,479 +635,86 @@
     </section>
     <!--portfolio Ends-->
 
-    <!--testimonial-->
-    <section id="testimonial">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 wow slideInLeft">
-                    <div class="vertical-heading">
-                        <h5>who we are</h5>
-                        <h2>What Our <br><strong>Customers</strong> Say</h2>
-                    </div>
-                </div>
-                <div class="col-md-8 wow fadeIn" data-wow-duration="2s">
-                    <div id="testimonial-slider" class="owl-carousel owl-theme">
-
-                        <!--testiminial-01-->
-                        <div class="testimonial">
-                            <div class="row">
-                                <div class="col-md-6 col-8">
-                                    <h3>Quality Support</h3>
-                                </div>
-                                <div class="col-md-6 col-4">
-                                    <div class="star text-right">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <p>My Experience working with Rafi has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.
-                            </p>
-
-                            <div class="author">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <img src="img/testimonial/client-1.jpg" alt="client" class="img-fluid rounded-circle">
-                                    </div>
-                                    <div class="col-md-10">
-                                        <div class="author-name">
-                                            <p>Megan Doe</p>
-                                            <p>Manager, OPPO</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--testiminial-02-->
-                        <div class="testimonial">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Quality Support</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="star text-right">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <p>My Experience working with Rafi has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.
-                            </p>
-
-                            <div class="author">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <img src="img/testimonial/client-2.jpg" alt="client" class="img-fluid rounded-circle">
-                                    </div>
-                                    <div class="col-md-10">
-                                        <div class="author-name">
-                                            <p>Jack Frost</p>
-                                            <p>CEO, XYZ Company</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--testiminial-03-->
-                        <div class="testimonial">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Quality Support</h3>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="star text-right">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <p>My Experience working with Rafi has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.
-                            </p>
-
-                            <div class="author">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <img src="img/testimonial/client-3.jpg" alt="client" class="img-fluid rounded-circle">
-                                    </div>
-                                    <div class="col-md-10">
-                                        <div class="author-name">
-                                            <p>Emily Watson</p>
-                                            <p>CEO, DAS Network</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-    <!--testimonial Ends-->
-
-    <!--pricing-->
-    <section id="pricing">
-        <div class="container-box-md">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 wow slideInDown">
-                        <div class="horizontal-heading text-center">
-                            <h5>Lovely customer <br></h5>
-                            <h1>Our Pricing</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 wow fadeInLeft">
-
-                        <!--pricing table 01-->
-                        <div class="pricing-table">
-                            <div class="type">
-                                <h4>Basic</h4>
-                            </div>
-                            <div class="price">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 col-4">
-                                        <h2><span class="doller">&#36;</span>29<br /><span class="month">Month</span></h2>
-                                    </div>
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <p>You will get all this awesome service with this great price.Get it now</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <ul class="package">
-                                <li><i class="fa fa-check"></i>Full Access</li>
-                                <li><i class="fa fa-check"></i>Unlimited Bandwidth</li>
-                                <li><i class="fa fa-check"></i>Powerful Admin Pannel</li>
-                                <li><i class="fa fa-check"></i>Email Account</li>
-                                <li><i class="fa fa-check"></i>10 Free Website</li>
-                            </ul>
-
-                            <div id="pricing-btn-01">
-                                <a class="btn btn-general btn-service" href="#" title="Get Started" role="button">Get Started</a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-duration="3s">
-
-                        <!--pricing table 02-->
-                        <div class="pricing-table black">
-                            <div class="type">
-                                <h4>Unlimited</h4>
-                            </div>
-                            <div class="price">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 col-4">
-                                        <h2><span class="doller">&#36;</span>69<br /><span class="month">Month</span></h2>
-                                    </div>
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <p>You will get all this awesome service with this great price.Get it now</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <ul class="package">
-                                <li><i class="fa fa-check"></i>Full Access</li>
-                                <li><i class="fa fa-check"></i>Unlimited Bandwidth</li>
-                                <li><i class="fa fa-check"></i>Powerful Admin Pannel</li>
-                                <li><i class="fa fa-check"></i>Email Account</li>
-                                <li><i class="fa fa-check"></i>10 Free Website</li>
-                            </ul>
-
-                            <div id="pricing-btn-02">
-                                <a class="btn btn-general btn-white" href="#" title="Get Started" role="button">Get Started</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 wow fadeInRight">
-
-                        <!--pricing table 03-->
-                        <div class="pricing-table">
-                            <div class="type">
-                                <h4>Professional</h4>
-                            </div>
-                            <div class="price">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 col-4">
-                                        <h2><span class="doller">&#36;</span>90<br /><span class="month">Month</span></h2>
-                                    </div>
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <p>You will get all this awesome service with this great price.Get it now</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <ul class="package">
-                                <li><i class="fa fa-check"></i>Full Access</li>
-                                <li><i class="fa fa-check"></i>Unlimited Bandwidth</li>
-                                <li><i class="fa fa-check"></i>Powerful Admin Pannel</li>
-                                <li><i class="fa fa-check"></i>Email Account</li>
-                                <li><i class="fa fa-check"></i>10 Free Website</li>
-                            </ul>
-
-                            <div id="pricing-btn-03">
-                                <a class="btn btn-general btn-service" href="#" title="Get Started" role="button">Get Started</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--pricing Ends-->
-
-    <!--stats-->
-    <section id="stats">
-        <div class="container-box-md">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 wow slideInLeft">
-                        <div class="vertical-heading">
-                            <h5>Fun Facts</h5>
-                            <h2>We Deliver <br /> <strong>Excellent</strong> Services</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row wow fadeInUp" data-wow-duration="2s">
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <!--stats-item 01-->
-                        <div class="stats-item text-center">
-                            <i class="far fa-chart-bar"></i>
-                            <h3 class="counter">26</h3>
-                            <p>Years Experiance</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <!--stats-item 02-->
-                        <div class="stats-item text-center">
-                            <i class="fab fa-codepen"></i>
-                            <h3 class="counter">300</h3>
-                            <p>Project Done</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <!--stats-item 03-->
-                        <div class="stats-item text-center">
-                            <i class="fas fa-trophy"></i>
-                            <h3 class="counter">100</h3>
-                            <p>Awards Received</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <!--stats-item 04-->
-                        <div class="stats-item text-center">
-                            <i class="fa fa-users"></i>
-                            <h3 class="counter">276</h3>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--stats-->
-
-    <!--clients-->
-    <section id="clients">
+    <!--Skill-->
+    <section id="resume">
         <div class="container-box-sm">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="horizontal-heading text-center">
-                            <h5>Satisfied Clients <br></h5>
-                            <h1>Our Happy Clients</h1>
+                        <div class="horizontal-heading text-center wow slideInLeft" data-wow-duration="1s">
+                            <h1>My Resume</h1>
                         </div>
                     </div>
                 </div>
-                <div class="row wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                    <div class="col-md-12">
-                        <div id="clients-details" class="owl-carousel owl-theme">
-                            <!--clients 01-->
-                            <div class="clients">
-                                <img src="img/client/client-1.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 02-->
-                            <div class="clients">
-                                <img src="img/client/client-2.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 03-->
-                            <div class="clients">
-                                <img src="img/client/client-3.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 04-->
-                            <div class="clients">
-                                <img src="img/client/client-4.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 05-->
-                            <div class="clients">
-                                <img src="img/client/client-5.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 06-->
-                            <div class="clients">
-                                <img src="img/client/client-6.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 07-->
-                            <div class="clients">
-                                <img src="img/client/client-7.png" alt="clients" class="img-fluid">
-                            </div>
-                            <!--clients 08-->
-                            <div class="clients">
-                                <img src="img/client/client-8.png" alt="clients" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--clients Ends-->
 
-    <!--blog-->
-    <section id="blog">
-        <div class="container-box-sm">
-            <div class="container">
                 <div class="row">
-                    <div class="col-md-5 wow slideInLeft">
-                        <div id="blog-left">
-                            <div class="vertical-heading">
 
-                                <h5>Letest News </h5>
-                                <h2>Letest <br>From <strong>Blog</strong></h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.provident quaerat deserunt architecto molestiae.Lorem ipsum dolor sit amet.</p>
+                    <!--about left-->
+                    <div class="col-md-6 wow slideInLeft" data-wow-duration="1s">
 
-                                <div id="blog-btn">
-                                    <a class="btn btn-general btn-service" href="#" title="View All Post" role="button">View All Post</a>
-                                </div>
-
+                        <div id="resume-left">
+                            <div class="container">
+                                <h3>Experiance</h3>
+                                <hr>
+                                <h4>Programming Course</h4>
+                                <hr>
+                                <h5 style="color: #F5CC2B;">Creative Shaper</h5>
+                                <p>Web Development(PHP, Laravel)</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="row wow fadeInUp" data-wow-duration="3s">
-                            <div class="col-md-6">
-                                <!--blog 01-->
-                                <div class="blog-post">
-                                    <h4>Post Title</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.veli accusantium eveniet tempore.</p>
-                                    <a href="#">Read More ></a>
-                                    <div class="author">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <p><img src="img/blog/user-1.jpg" alt="author" class="rounded-circle"> Danial Watros</p>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <p class="text-right">October 02,2017</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6">
-                                <!--blog 02-->
-                                <div class="blog-post">
-                                    <h4>Post Title</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.veli accusantium eveniet tempore.</p>
-                                    <a href="#">Read More ></a>
-                                    <div class="author">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <p><img src="img/blog/user-2.jpg" alt="author" class="rounded-circle"> John Petter</p>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <p class="text-right">November 02,2017</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
+
+
+                    <!--about right-->
+                    <div class="col-md-6 wow slideInRight" data-wow-duration="1s">
+
+                        <div id="resume-right">
+                            <div class="container">
+                                <h3>My Education</h3>
+                                <hr>
+                                <h5>Diploma in Computer Engineering (Dip. in CMT)</h5>
+                                <p>Institute : National Science Research and Technology Collage, Rajshahi.<br>Board      : Bangladesh Technology Education Board. <br>
+                                Passing Year     : 2020 <br>
+                                Result      : waiting</p>
+
+                                <h5>Secondary School Certificate (SSc)</h5>
+                                <p>Group  : Science. <br> 
+                                School  : Khas Sat Baria High School, Shahzadpur, Sirajganj. <br>
+                                Board  : Bangladesh Education Board. <br>
+                                Passing Year : 2016 <br>
+                                Result  : GPA 3.78 out of 5.0</p>
+                            </div>
+                        </div>   
+
+                    </div>
+
                 </div>
+
+
             </div>
         </div>
     </section>
-    <!--blog Ends-->
+    <!--Skill Ends-->
 
     <!--contact-->
     <section id="contact">
-        <div class="container-box-md">
+        <div class="container-box-sm">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-
+                    <div class="col-md-12">
+                        <div class="horizontal-heading text-center wow slideInLeft" data-wow-duration="1s">
+                            <h1>Contact Me</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
                         <!--contact left-->
                         <div id="contact-left">
-                            <div class="vertical-heading">
-                                <h5>Who We Are</h5>
-                                <h2>GET <br> In<strong> Touch</strong></h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, iusto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, recusandae.</p>
-                            </div>
-
-                            <div id="branch">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="branch">
-                                            <h4>Rajshahi</h4>
-                                            <ul class="brance-details">
-                                                <li><i class="fa fa-mobile"></i>+(60) 888-98 00 99</li>
-                                                <li><i class="far fa-envelope"></i>support.rafi@rajshahi.com</li>
-                                                <li><i class="fa fa-map-marker"></i>Rajshahi, Bangladesh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="branch">
-                                            <h4>Dhaka</h4>
-                                            <ul class="brance-details">
-                                                <li><i class="fa fa-mobile"></i>+(60) 999-98 00 98</li>
-                                                <li><i class="far fa-envelope"></i>support.rafi@dhaka.com</li>
-                                                <li><i class="fa fa-map-marker"></i>Dhaka, Bangladesh</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <!--contact right-->
-                        <div id="contact-right">
                             <form>
                                 <h4>Send Message</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, doloremque.</p>
+                                <p>i am here to answer any question you may have.</p>
 
                                 <div class="row">
                                     <div class="col-md-6">
@@ -1545,25 +755,68 @@
                                 </table>
                             </form>
                         </div>
+                    </div>
 
+                    <div class="col-md-4">
+                        <!--contact right-->
+                        <div id="contact-right">
+                                <div class="vertical-heading text-center">
+                                    <h3>GET In Touch</h3>
+                                </div>
+                                <!--address-->
+                                <div class="contact-details">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2">
+                                            <div class="icon">
+                                                <i class="fa fa-map-marker"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 col-sm-10">
+                                            <h4>Address</h4>
+                                            <p>Shahjadpur,Sirajganj</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--email-->
+                                <div class="contact-details">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2">
+                                            <div class="icon">
+                                                <i class="fa fa-envelope"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 col-sm-10">
+                                            <h4>Email</h4>
+                                            <p>arrafi245@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--phone-->
+                                <div class="contact-details">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2">
+                                            <div class="icon">
+                                                <i class="fa fa-mobile"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 col-sm-10">
+                                            <h4>Phone</h4>
+                                            <p>01770-105856</p>
+                                        </div>
+                                    </div>
+                                </div>        
+                                <ul class="social-list">
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--contact Ends-->
-
-    <!--google maps-->
-    <section id="google-maps">
-        <div class="container-fluid">
-            <div class="row">
-                <div id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58144.535287702565!2d88.57095043889463!3d24.380139554864595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefa96a38d031%3A0x10f93a950ed6f410!2sRajshahi!5e0!3m2!1sen!2sbd!4v1572253145354!5m2!1sen!2sbd" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--google maps Ends-->
 
     <!--footer-->
     <footer class="text-center">
@@ -1580,7 +833,6 @@
         <a href="#home" id="back-to-top" class="btn btn-sm btn-service btn-back-to-top smooth-scroll" title="home" role="button">
             <i class="fa fa-angle-up"></i>
         </a>
-
     </footer>
     <!--footer Ends-->
 
@@ -1602,8 +854,8 @@
     <!--isotope-->
     <script src="js/isotope/083%20isotope.pkgd.min.js"></script>
 
-    <!--magnifier popup-->
-    <script src="js/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+    <!--magnifier popup
+    <script src="js/Magnific-Popup/jquery.magnific-popup.min.js"></script>-->
 
     <!--counterup-->
     <script src="js/counterup/jquery.counterup.min.js"></script>

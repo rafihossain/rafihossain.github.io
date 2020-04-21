@@ -8,35 +8,6 @@ $(window).on("load", function () {
 
 
 
-/*==================================
-            team
-====================================*/
-
-
-$(document).ready(function () {
-    $("#team-right").owlCarousel({
-        items: 2,
-        autoplay: true,
-        smartSpeed: 700,
-        loop: true,
-        dots: false,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            // breakpoint from 0 up
-            0: {
-                items: 1
-            },
-            // breakpoint from 480 up
-            480: {
-                items: 2
-            }
-        }
-
-    });
-});
-
-
 
 /*==================================
             progress bar
@@ -106,74 +77,15 @@ $(window).on('load', function () {
             magnifier
 ====================================*/
 
-$(function () {
-    $('#portfolio-item').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-});
-
-/*==================================
-            testimonial
-====================================*/
-
-$(function () {
-    $("#testimonial-slider").owlCarousel({
-        items: 1,
-        autoplay: false,
-        smartSpeed: 700,
-        loop: true,
-        dots: false,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
-
-    });
-});
-
-/*==================================
-            stats
-====================================*/
-$(function () {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-});
-
-
-/*==================================
-            clients
-====================================*/
-
-$(function () {
-    $("#clients-details").owlCarousel({
-        items: 6,
-        autoplay: false,
-        smartSpeed: 700,
-        loop: true,
-        dots: false,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            // breakpoint from 0 up
-            0: {
-                items: 2
-            },
-            // breakpoint from 480 up
-            480: {
-                items: 3
-            },
-            // breakpoint from 768 up
-            768: {
-                items: 6
-            }
-        }
-
-    });
-});
+// $(function () {
+//     $('#portfolio-item').magnificPopup({
+//         delegate: 'a', // child items selector, by clicking on it popup will open
+//         type: 'image',
+//         gallery: {
+//             enabled: true
+//         }
+//     });
+// });
 
 
 /*==================================
@@ -254,7 +166,7 @@ $(function () {
 $(function () {
     
     // function([string1, string2],target id,[color1,color2])    
- consoleText(['Web Developer', 'UI / UX Designer', 'Graphics Designer'], 'home-text',['white','white','white']);
+ consoleText(['Web Artisan', 'PHP Developer', 'Laravel Developer'], 'home-text',['white','white','white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
